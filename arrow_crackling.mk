@@ -16,12 +16,12 @@
 $(call inherit-product, device/wileyfox/crackling/full_crackling.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-PRODUCT_NAME := lineage_crackling
+PRODUCT_NAME := arrow_crackling
 BOARD_VENDOR := wileyfox
 PRODUCT_DEVICE := crackling
 
